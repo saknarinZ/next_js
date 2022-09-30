@@ -3,6 +3,9 @@ import EventItem from "./event-item";
 function Eventlist(props: any) {
   const { items }: any = props;
 
+console.log(items);
+
+
   return (
     <ul className="w-[90%] max-w-[40rem] my-20 mx-auto">
       {items.map((event: any) => (

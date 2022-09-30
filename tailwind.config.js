@@ -5,11 +5,13 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    
     extend: {
       colors: {
         primary: "#03be9f",
         primary_active: "#02afa1",
         primary_light: "#dafff7",
+        secondary: "#94fdfd",
       },
     },
     screens: {
@@ -28,6 +30,10 @@ module.exports = {
       "2xl": "1536px",
       // => @media (min-width: 1536px) { ... }
     },
+    fontFamily: {
+      'Fira': ['Fira', 'sans-serif'],
+ 
+    }
   },
   plugins: [],
 };
